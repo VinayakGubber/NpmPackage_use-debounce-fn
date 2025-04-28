@@ -41,7 +41,7 @@ type DebouncedFunction <T extends (...args: any[]) => any> = {
 function useDebounceFn<T extends (...args: any[]) => any>(
     fn: T,
     delay: number, 
-    { immediate = true }: Options = {}
+    options: Options = { immediate: true }
 ): DebouncedFunction<T> {
 
     /*
