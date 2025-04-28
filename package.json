@@ -1,0 +1,20 @@
+{
+  "name": "use-debounce-fn",
+  "version": "^1.0.0",
+  "description": "A lightweight React hook for debouncing functions.",
+  "main": "dist/useDebounceFn.js",
+  "types": "dist/useDebounceFn.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/use-debounce-fn.git"
+  },
+  "keywords": ["react", "hook", "debounce", "typescript"],
+  "author": "Your Name",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}
