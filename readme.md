@@ -7,14 +7,18 @@
 
 ## ✨ Features
 
-- 🕒 Debounce any function (delays execution until user stops triggering it)
-- ⚡️ Optional immediate run on first call
-- ⛔️ Cancel a pending call
+- 🕒 Debounce any function — delays execution until the user stops triggering it
+- ⚡️ Optional `immediate` execution on the first call
+- ⛔️ Cancel a pending execution
 - 🚀 Flush immediately if needed
-- 💡 Tiny and fast, no external libraries
-- ✅ Fully typed with TypeScript
-- 🧪 Unit tested
+- ✅ Fully compatible with **Vite**
+- 💡 Tiny and fast — zero external dependencies
+- 🧪 Fully unit tested
+- 🧠 Built with and fully typed in **TypeScript**
 
+---
+
+## 🔄 Dual Export Support
 ---
 
 ## 📦 Installation
