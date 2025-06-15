@@ -1,4 +1,3 @@
-
 # use-debounce-fn
 
 > 🪝 A lightweight, zero-dependency React hook for debouncing any function — with full TypeScript support and cancel/flush control.
@@ -19,6 +18,7 @@
 ---
 
 ## 🔄 Dual Export Support
+
 ---
 
 ## 📦 Installation
@@ -32,20 +32,20 @@ npm install use-debounce-fn
 import useDebounceFn from 'use-debounce-fn';
 
 function SearchInput() {
-  const [query, setQuery] = useState('');
+const [query, setQuery] = useState('');
 
-  const debouncedSearch = useDebounceFn((q: string) => {
-    console.log('Searching for', q);
-    // Call API or filter results here
-  }, 500); // 500ms debounce delay
+const debouncedSearch = useDebounceFn((q: string) => {
+console.log('Searching for', q);
+// Call API or filter results here
+}, 500); // 500ms debounce delay
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const value = e.target.value;
-    setQuery(value);
-    debouncedSearch(value);
-  };
+const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+const value = e.target.value;
+setQuery(value);
+debouncedSearch(value);
+};
 
-  return <input value={query} onChange={handleChange} />;
+return <input value={query} onChange={handleChange} />;
 }
 
 ---
@@ -53,7 +53,7 @@ function SearchInput() {
 ## 🧰 API
 
 const debouncedFn = useDebounceFn(fn: Function, delay: number, options?: {
-  immediate?: boolean
+immediate?: boolean
 });
 
 - fn: Function you want to debounce.
@@ -64,7 +64,6 @@ const debouncedFn = useDebounceFn(fn: Function, delay: number, options?: {
 
 - debouncedFn.cancel(): Cancels any pending execution
 - debouncedFn.flush(): Immediately executes the pending function (if any)
-
 
 ## 🛠 How It Works
 
