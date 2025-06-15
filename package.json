@@ -6,8 +6,10 @@
   "module": "dist/useDebounceFn.js",
   "types": "dist/useDebounceFn.d.ts",
   "exports": {
-    "import": "./dist/useDebounceFn.js",
-    "require": "./dist/useDebounceFn.js"
+    ".": {
+      "import": "./dist/useDebounceFn.js",
+      "require": "./dist/useDebounceFn.js"
+    }
   },
   "repository": {
     "type": "git",
