@@ -1,6 +1,6 @@
 {
   "name": "use-debounce-fn",
-  "version": "2.0.5",
+  "version": "2.0.7",
   "description": "A lightweight React hook for debouncing functions.",
   "main": "dist/index.js",
   "module": "dist/index.js",
