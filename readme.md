@@ -97,7 +97,4 @@ This hook keeps apps **fast and efficient** — written in **modern TypeScript**
 
 ```
 
----
-
-Do you want me to also make a **shorter NPM-style README** (like 15–20 lines max) for publishing, or keep it as the detailed one above?
 ```
