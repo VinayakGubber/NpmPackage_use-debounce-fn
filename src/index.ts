@@ -4,7 +4,7 @@ import { useRef, useEffect } from "react";
 type Options = {
     immediate?: boolean;
 };
-
+  
 // Type for the debounced function, including cancel and flush methods
 type DebouncedFunction<T extends (...args: any[]) => any> = {
     (...args: Parameters<T>): void;
