@@ -94,7 +94,3 @@ MIT — free to use and modify.
 I built **use-debounce-fn** to solve a common UI performance issue in React: when functions like API calls or expensive state updates run too frequently during user input.
 
 This hook keeps apps **fast and efficient** — written in **modern TypeScript**, showcasing reusable hooks, debouncing logic, and clean developer experience.
-
-```
-
-```
