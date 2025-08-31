@@ -1,0 +1,15 @@
+# Check what files are modified
+git status
+
+# Add your changes (including the updated README)
+git add .
+
+# Commit your changes
+git commit -m "Update README file"
+
+# Now run version bump
+npm version patch
+
+# Build and publish
+npm run build
+npm publish
